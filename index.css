@@ -6,7 +6,7 @@
     font-size:16px;
 }
 
-body{
+body{ 
     background-color: rgb(255, 247, 247);
 }
 
@@ -388,9 +388,9 @@ article{
 }
 
 .serve-container1{
+    border-radius: 1rem;
     display: flex;
     flex-direction:column ;
-    position: relative;
     width:60%;
     background-color: #f4f4f4;
 }
@@ -451,6 +451,7 @@ article{
 }
 
 .logo-six{
+    border: 0.16rem dashed black;
     top:5rem;
     left:50%;
     display: flex;
@@ -461,7 +462,6 @@ article{
 }
 
 .left-side{
-    border: 1px dashed wheat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -469,7 +469,6 @@ article{
 }
 
 .right-side{
-    border: 1px dashed wheat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -498,6 +497,21 @@ article{
 
 
 
+
+/* team */
+
+.team{
+    width:75%;
+    margin-top: 4rem;
+}
+
+.team-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 9rem;
+}
 
 
 
@@ -628,43 +642,55 @@ article{
     }
 
     .serve{
-        margin: 4rem;
-        display: flex;
-        width: 75%;
-        justify-content: space-evenly;
+        display:flex;
+        height: auto;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
+        position: static;
     }
 
     .logo-six{
+        padding: 0 auto;
+        margin-top:3rem;
+        position:static;
+        border-radius: 20px;
+        width:75%;
+        height:auto;
         background:linear-gradient(160deg, rgb(255, 124, 2), rgb(0, 76, 255));
-        border: 1px dotted black;
         display: flex;
+        flex-direction: row;
+        border: 0.16rem dashed black;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        position: relative;
-        width:100%;
     }
 
     .serve-container1{
-        background-color: rgb(216, 209, 209);
+        margin-top:3rem;
+        border-radius: 1rem;
+        background-color: #f4f4f4;
         display: flex;
         flex-direction: column;
-        margin:2rem;
         justify-content: center;
         align-items: center;
         height:100%;
-        border-radius: 45px;
+        width:75%;
     }
     
     .serve-container2{
+        margin-top:3rem;
         display: flex;
         flex-direction: column;
-        margin:2rem;
         justify-content: center;
         align-items: center;
         height:100%;
+        width: 75%;
+    }
+
+    .serve-container2 img{
+        height:100%;
+        width: 100%;
     }
 }
 
@@ -781,6 +807,8 @@ article{
     }
 
     .logo-six{
+        border: 0.16rem dashed black;
+        margin-top:3rem;
         position:static;
         border-radius: 20px;
         width:75%;
@@ -788,14 +816,14 @@ article{
         background:linear-gradient(160deg, rgb(255, 124, 2), rgb(0, 76, 255));
         display: flex;
         flex-direction: row;
-        border: 1px dotted black;
         justify-content: center;
         align-items: center;
     }
 
     .serve-container1{
-        border-radius: 20px;
-        background-color: #aa9191;
+        margin-top:3rem;
+        border-radius: 1rem;
+        background-color: #f4f4f4;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -805,6 +833,7 @@ article{
     }
     
     .serve-container2{
+        margin-top:3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
