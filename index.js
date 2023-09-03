@@ -1,6 +1,11 @@
-const main_header_part_1 = document.querySelector(".listing");
+const p = document.querySelector(".listing");
 
 document.querySelector(".nav-bar-ham").addEventListener("click",()=>{
-        main_header_part_1.classList.toggle("active");
+        p.classList.toggle("active");
 })
 
+// $(document).ready(() => {
+//         $(".nav-bar-ham").click(() => {
+//                 $(".listing").toggle();
+//         });
+// });
