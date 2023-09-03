@@ -698,6 +698,91 @@ article{
     
 }
 
+
+.touch{
+    margin-top: 5rem;
+    background-image:linear-gradient(150deg, rgba(206, 120, 40, 0.732), rgba(22, 76, 201, 0.562)),url('assets/get-in-touch.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.touch-h1{
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.touch-logos{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 3rem;
+
+}
+
+.touch-logos i{
+    flex-wrap: wrap;
+    padding:1rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.touch-logos i:hover{
+    border: 1px solid rgb(9, 9, 9);
+    cursor: pointer;
+    padding:1rem;
+    border-radius: 50%;
+    background: linear-gradient(140deg, rgb(255, 124, 2), rgb(0, 76, 255));
+
+}
+
+.footer{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-container{
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.footer-text{
+    font-size:1.5rem;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.footer-text a{
+    font-size:1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-logo i{
+    padding-left: 1rem;
+    font-size:1.5rem;
+}
 @media (max-width: 525px)  {
 
     header{
