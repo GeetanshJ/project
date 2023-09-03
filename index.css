@@ -1105,6 +1105,13 @@ article {
         align-items: center;
     }
 
+    .about-us-container img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:80%;
+    }
     .serve-container1 {
         margin-top: 3rem;
         border-radius: 1rem;
@@ -1334,7 +1341,7 @@ article {
     }
 
     .touch{
-        margin-top:40rem;
+        margin-top:120vh;
     }
 }
 
