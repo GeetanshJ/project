@@ -1005,7 +1005,7 @@ article {
 
     .listing {
         padding: 1rem;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -1386,7 +1386,7 @@ article {
 
     .listing {
         padding-top: 1rem;
-        display: none;
+        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
